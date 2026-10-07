@@ -1,4 +1,5 @@
 /*
+QUESTION (EASY):-
 You are given an integer n. You need to return the number of digits in the number.
 The number will have no leading zeroes, except when the number is 0 itself.
 
@@ -14,16 +15,17 @@ Explanation: There are 2 digits in 14.
  */
 
 /*
-Approach:
+APPROACH:
 1. Convert the number to its positive value using Math.abs().
 2. If the number is 0, return 1 because 0 has one digit.
 3. Repeatedly divide the number by 10.
 4. Increment the count after each division.
 5. When the number becomes 0, return the count.
 
-Time: O(log₁₀ n)
-Space: O(1)
  */
+
+// TIME COMPLEXITY = O(log₁₀ n)
+// SPACE COMPLEXITY = O(1)
 
 public class CountAllDigitsOfNumber {
     public int countDigits(int n) {
