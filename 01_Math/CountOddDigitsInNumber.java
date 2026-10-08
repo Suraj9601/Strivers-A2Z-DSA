@@ -18,6 +18,9 @@ APPROACH:-
 5.
  */
 
+// TIME COMPLEXITY = O(log n)
+// SPACE COMPLEXITY = O(1)
+
 public class CountOddDigitsInNumber {
     public int countOddDigit(int num) {
         int count = 0;
