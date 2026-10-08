@@ -21,25 +21,38 @@ Explanation: Number of digits : 2.
 Therefore, it is not an Armstrong number.
  */
 
-class Solution {
-    public boolean isArmstrong(int n) {
-        if (n == 0) return true;
+public class ArmstrongNumber {
+
+    public static void main(String[] args) {
+        System.out.println(isArmstrong(153));
+        System.out.println(isArmstrong(12));
+    }
+
+    public static boolean isArmstrong(int n) {
+
+        int original = n;
         int sum = 0;
-        int temp = n;
-        int num = n;
         int len = 0;
 
-        while (temp > 0) {
+        int temp = n;
+
+        if (n == 0) {
+            len = 1;
+        } else {
+            while (temp != 0) {
+                len++;
+                temp /= 10;
+            }
+        }
+
+        temp = n;
+
+        while (temp != 0) {
+            int digit = temp % 10;
+            sum += (int) Math.pow(digit, len);
             temp /= 10;
-            len++;
         }
 
-        while (n > 0) {
-            int d = n % 10;
-            sum += Math.pow(d, len);
-        }
-
-        if (sum == num) return true;
-        return false;
+        return sum == original;
     }
 }
