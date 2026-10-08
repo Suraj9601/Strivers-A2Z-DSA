@@ -27,10 +27,7 @@ APPROACH :-
 // SPACE COMPLEXITY = O(1)
 
 public class ReverseNumber {
-    public static void main(String[] args) {
-        System.out.println(reverseNumber(-123));
-    }
-    public static int reverseNumber(int n) {
+    public int reverseNumber(int n) {
         int reverse = 0;
 
         while(n != 0) {
