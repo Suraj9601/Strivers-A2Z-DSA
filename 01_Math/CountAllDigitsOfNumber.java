@@ -24,7 +24,7 @@ APPROACH:
 
  */
 
-// TIME COMPLEXITY = O(log₁₀ n)
+// TIME COMPLEXITY = O(log n)
 // SPACE COMPLEXITY = O(1)
 
 public class CountAllDigitsOfNumber {
