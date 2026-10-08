@@ -1,5 +1,5 @@
 /*
-QUESTION (MEDIUM):- Reverse a number
+Q.3 (MEDIUM):- Reverse a number
 You are given an integer n. Return the integer formed by placing the digits of n in reverse order.
 
 Example 1:

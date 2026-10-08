@@ -1,5 +1,5 @@
 /*
-QUESTION (EASY):-
+Q.5 (EASY):- Largest digit in a number
 You are given an integer n. Return the largest digit present in the number.
 
 Example 1:
