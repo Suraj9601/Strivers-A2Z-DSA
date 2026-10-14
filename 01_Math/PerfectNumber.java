@@ -17,7 +17,7 @@ APPROACH :-
 1. Declare variable sum to store sum of divisors
 2. Iterate loop up to square root of n
 3. Find divisor and add in sum
-4. Find another equivalent divisor using n/i (i is divisor)
+4. Find another equivalent divisor using n/i (i is divisor) and in sum
 5. Return true if sum is equal to n otherwise retuen false
  */
 
